@@ -1,0 +1,49 @@
+﻿body {
+    font-family: sans-serif;
+    font-size: 100%; 
+}
+
+h1 { 
+    font-size: 3em;
+    text-align: center;
+}
+
+.choices {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.choices-item {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.player-buttons {
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+.player-button {
+    margin: 10px;
+    border-color: black;
+    border-style: dotted;
+    height: 50px;
+    width: 50px;
+}
+
+.instructions {
+    text-align: center;
+}
+
+.results-text {
+    clear: both;
+    text-align: center;   
+}
+
+.credits {
+    text-align: center;  
+}
+

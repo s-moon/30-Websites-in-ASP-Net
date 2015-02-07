@@ -1,0 +1,6 @@
+C:\Users\Stephen\OneDrive\Web\W1-RockPaperScissors\W1-RockPaperScissors\bin\W1-RockPaperScissors.dll.config
+C:\Users\Stephen\OneDrive\Web\W1-RockPaperScissors\W1-RockPaperScissors\bin\W1-RockPaperScissors.dll
+C:\Users\Stephen\OneDrive\Web\W1-RockPaperScissors\W1-RockPaperScissors\bin\W1-RockPaperScissors.pdb
+C:\Users\Stephen\OneDrive\Web\W1-RockPaperScissors\W1-RockPaperScissors\obj\Debug\W1-RockPaperScissors.csprojResolveAssemblyReference.cache
+C:\Users\Stephen\OneDrive\Web\W1-RockPaperScissors\W1-RockPaperScissors\obj\Debug\W1-RockPaperScissors.dll
+C:\Users\Stephen\OneDrive\Web\W1-RockPaperScissors\W1-RockPaperScissors\obj\Debug\W1-RockPaperScissors.pdb
