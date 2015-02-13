@@ -8,10 +8,10 @@
   <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+  <h1>Rock, Paper, Scissors</h1>
   <form id="form1" runat="server">
     <div>
-      <h1>Rock, Paper, Scissors</h1>
-      <section >
+      <section>
         <table class="choices">
           <tr>
             <th>YOU</th>
@@ -20,12 +20,12 @@
           </tr>
           <tr>
             <td class="choices-item">
-              <asp:Image  ID="yourChoiceImage" runat="server" ImageUrl="~/Assets/question-mark.png" /></td>
+              <asp:Image ID="yourChoiceImage" runat="server" ImageUrl="~/Assets/question-mark.png" /></td>
             <td class="choices-item">&nbsp;VERSUS&nbsp;</td>
             <td class="choices-item">
               <asp:Image class="choices-image" ID="computerChoiceImage" runat="server" ImageUrl="~/Assets/question-mark.png" /></td>
           </tr>
-          
+
         </table>
       </section>
       <hr />

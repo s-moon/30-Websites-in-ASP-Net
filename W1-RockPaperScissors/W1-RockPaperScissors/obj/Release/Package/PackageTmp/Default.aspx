@@ -11,6 +11,7 @@
   <form id="form1" runat="server">
     <div>
       <h1>Rock, Paper, Scissors</h1>
+      <h2>By Stephen Moon, 2015</h2>
       <section >
         <table class="choices">
           <tr>
