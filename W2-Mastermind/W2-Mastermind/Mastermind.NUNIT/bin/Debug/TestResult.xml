@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Stephen\OneDrive\Web\Git\30-websites-in-asp-net\W2-Mastermind\W2-Mastermind\Mastermind.NUNIT\bin\Debug\Mastermind.NUNIT.dll" total="7" errors="6" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-02-13" time="15:43:48">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\Stephen\OneDrive\Web\NUnit.Runners.2.6.4\tools" machine-name="USER-PC" user="Stephen" user-domain="USER-PC" />
+  <culture-info current-culture="en-GB" current-uiculture="en-GB" />
+  <test-suite type="Assembly" name="C:\Users\Stephen\OneDrive\Web\Git\30-websites-in-asp-net\W2-Mastermind\W2-Mastermind\Mastermind.NUNIT\bin\Debug\Mastermind.NUNIT.dll" executed="True" result="Failure" success="False" time="1.066" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Mastermind" executed="True" result="Failure" success="False" time="1.040" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="NUNIT" executed="True" result="Failure" success="False" time="1.039" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="MastermindSequenceTest" executed="True" result="Failure" success="False" time="1.035" asserts="0">
+                <results>
+                  <test-case name="Mastermind.NUNIT.MastermindSequenceTest.InvalidArgumentTest" executed="True" result="Failure" success="False" time="0.312" asserts="0">
+                    <failure>
+                      <message><![CDATA[An unexpected exception type was thrown
+Expected: System.ArgumentException
+ but was: System.IO.FileNotFoundException : Could not load file or assembly 'W2-Mastermind, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.]]></message>
+                      <stack-trace><![CDATA[at Mastermind.NUNIT.MastermindSequenceTest.InvalidArgumentTest()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="Mastermind.NUNIT.MastermindSequenceTest.RandomSequenceTest" executed="True" result="Error" success="False" time="0.027" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.IO.FileNotFoundException : Could not load file or assembly 'W2-Mastermind, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.]]></message>
+                      <stack-trace><![CDATA[at Mastermind.NUNIT.MastermindSequenceTest.RandomSequenceTest()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="Mastermind.NUNIT.MastermindSequenceTest.ScoreSequenceAllIncorrectTest" executed="True" result="Error" success="False" time="0.005" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.IO.FileNotFoundException : Could not load file or assembly 'W2-Mastermind, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.]]></message>
+                      <stack-trace><![CDATA[at Mastermind.NUNIT.MastermindSequenceTest.ScoreSequenceAllIncorrectTest()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="Mastermind.NUNIT.MastermindSequenceTest.ScoreSequenceJustRightPlaceTest" executed="True" result="Error" success="False" time="0.005" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.IO.FileNotFoundException : Could not load file or assembly 'W2-Mastermind, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.]]></message>
+                      <stack-trace><![CDATA[at Mastermind.NUNIT.MastermindSequenceTest.ScoreSequenceJustRightPlaceTest()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="Mastermind.NUNIT.MastermindSequenceTest.ScoreSequenceJustWrongPlaceTest" executed="True" result="Error" success="False" time="0.006" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.IO.FileNotFoundException : Could not load file or assembly 'W2-Mastermind, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.]]></message>
+                      <stack-trace><![CDATA[at Mastermind.NUNIT.MastermindSequenceTest.ScoreSequenceJustWrongPlaceTest()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="Mastermind.NUNIT.MastermindSequenceTest.ScoreSequenceMixRightWrongPlaceTest" executed="True" result="Error" success="False" time="0.005" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.IO.FileNotFoundException : Could not load file or assembly 'W2-Mastermind, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.]]></message>
+                      <stack-trace><![CDATA[at Mastermind.NUNIT.MastermindSequenceTest.ScoreSequenceMixRightWrongPlaceTest()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="Mastermind.NUNIT.MastermindSequenceTest.ToStringTest" executed="True" result="Error" success="False" time="0.005" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.IO.FileNotFoundException : Could not load file or assembly 'W2-Mastermind, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.]]></message>
+                      <stack-trace><![CDATA[at Mastermind.NUNIT.MastermindSequenceTest.ToStringTest()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,8 @@
+C:\Users\Stephen\OneDrive\Web\Git\30-websites-in-asp-net\W2-Mastermind\W2-Mastermind\W2-Mastermind\bin\W2-Mastermind.dll.config
+C:\Users\Stephen\OneDrive\Web\Git\30-websites-in-asp-net\W2-Mastermind\W2-Mastermind\W2-Mastermind\bin\W2-Mastermind.dll
+C:\Users\Stephen\OneDrive\Web\Git\30-websites-in-asp-net\W2-Mastermind\W2-Mastermind\W2-Mastermind\bin\W2-Mastermind.pdb
+C:\Users\Stephen\OneDrive\Web\Git\30-websites-in-asp-net\W2-Mastermind\W2-Mastermind\W2-Mastermind\bin\nunit.framework.dll
+C:\Users\Stephen\OneDrive\Web\Git\30-websites-in-asp-net\W2-Mastermind\W2-Mastermind\W2-Mastermind\bin\nunit.framework.xml
+C:\Users\Stephen\OneDrive\Web\Git\30-websites-in-asp-net\W2-Mastermind\W2-Mastermind\W2-Mastermind\obj\Release\W2-Mastermind.dll
+C:\Users\Stephen\OneDrive\Web\Git\30-websites-in-asp-net\W2-Mastermind\W2-Mastermind\W2-Mastermind\obj\Release\W2-Mastermind.pdb
+C:\Users\Stephen\OneDrive\Web\Git\30-websites-in-asp-net\W2-Mastermind\W2-Mastermind\W2-Mastermind\obj\Release\W2-Mastermind.csprojResolveAssemblyReference.cache
