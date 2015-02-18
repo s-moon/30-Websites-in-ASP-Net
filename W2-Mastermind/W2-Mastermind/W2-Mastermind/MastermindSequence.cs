@@ -74,6 +74,18 @@ namespace W2_Mastermind
             char[] guessCopy = guess.ToCharArray();
 
             // Match against all the RightColourRightPlace ones first
+            result = findAllRightPlaceRightColour(sequenceCopy, guessCopy);
+
+            // what should be left are right colour, wrong place, and just plain old wrong!
+            result += findAllRightColourWrongPlace(sequenceCopy, guessCopy);
+
+            return result;
+        }
+
+        private string findAllRightPlaceRightColour(char[] sequenceCopy, char[] guessCopy)
+        {
+            string result = string.Empty;
+
             for (int i = 0; i < guessCopy.Length; i++)
             {
                 if (guessCopy[i] == sequenceCopy[i])
@@ -87,7 +99,13 @@ namespace W2_Mastermind
                 }
             }
 
-            // what should be left are right colour, wrong place, and just plain old wrong!
+            return result;
+        }
+
+        private string findAllRightColourWrongPlace(char[] sequenceCopy, char[] guessCopy)
+        {
+            string result = string.Empty;
+
             for (int i = 0; i < guessCopy.Length; i++)
             {
                 if (guessCopy[i] != BLANK_CODE)
@@ -107,7 +125,6 @@ namespace W2_Mastermind
                     }
                 }
             }
-
             return result;
         }
 
