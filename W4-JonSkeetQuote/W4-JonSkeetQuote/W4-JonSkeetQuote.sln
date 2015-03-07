@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4-JonSkeetQuote", "W4-JonSkeetQuote\W4-JonSkeetQuote.csproj", "{2536D591-5770-4AA8-9EE2-AFEC46CAFDF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4-JonSkeetQuote.Test", "W4-JonSkeetQuote.Test\W4-JonSkeetQuote.Test.csproj", "{91347C9A-B013-4EDC-981D-B7ACC87AEEF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2536D591-5770-4AA8-9EE2-AFEC46CAFDF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2536D591-5770-4AA8-9EE2-AFEC46CAFDF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2536D591-5770-4AA8-9EE2-AFEC46CAFDF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91347C9A-B013-4EDC-981D-B7ACC87AEEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91347C9A-B013-4EDC-981D-B7ACC87AEEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91347C9A-B013-4EDC-981D-B7ACC87AEEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91347C9A-B013-4EDC-981D-B7ACC87AEEF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
