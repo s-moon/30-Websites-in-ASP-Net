@@ -11,7 +11,7 @@ namespace W4_JonSkeetQuote
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            QuoteEngine qe = new QuoteEngine(Server.MapPath(QuoteEngine.QUOTE_PATH));
+            QuoteEngine qe = new QuoteEngine();
 
             theQuoteLabel.Text = qe.GetRandomQuote();
         }
