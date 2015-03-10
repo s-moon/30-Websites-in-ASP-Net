@@ -23,7 +23,7 @@ namespace W4_JonSkeetQuote
             }
             catch (System.IO.FileNotFoundException e)
             {
-                throw new QuoteEngineException("File not found at path: " + path);
+                throw new QuoteEngineException("File not found at path: " + path + ". " + e.Message);
             }
             catch (Exception e)
             {
