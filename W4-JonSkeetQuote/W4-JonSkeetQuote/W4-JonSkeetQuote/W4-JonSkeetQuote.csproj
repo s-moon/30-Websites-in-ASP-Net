@@ -68,10 +68,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Data\jon-skeet-quotes.xml">
+    <Content Include="Data\jon-skeet-quotes.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
-    </Resource>
+    </Content>
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
