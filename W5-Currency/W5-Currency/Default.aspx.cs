@@ -14,18 +14,6 @@ namespace W5_Currency
         {
             if (!Page.IsPostBack)
             {
-                //currencyA.Items.Add("GBP");
-                //currencyA.Items.Add("USD");
-                //currencyA.Items.Add("EUR");
-                //currencyB.Items.Add("GBP");
-                //currencyB.Items.Add("USD");
-                //currencyB.Items.Add("EUR");
-                //foreach (Currency ccy in Enum.GetValues(typeof(Currency)))
-                //{
-                //    currencyA.Items.Add(ccy.ToString());
-                //    currencyB.Items.Add(ccy.ToString());
-                //}
-
                 BindDropDownListData();
                 SetDefaultDropDownListCurrencies();
 

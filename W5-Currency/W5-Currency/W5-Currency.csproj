@@ -59,7 +59,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\StyleSheet.css" />
     <Content Include="Currency.Master" />
+    <None Include="Properties\PublishProfiles\Deploy.pubxml" />
     <None Include="Service References\CurrencyConverter\CurrencyConvertor.wsdl" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
