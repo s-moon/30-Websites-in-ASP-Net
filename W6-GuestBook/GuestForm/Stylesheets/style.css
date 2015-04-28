@@ -1,0 +1,54 @@
+﻿body {
+    font-family: sans-serif;
+    font-size: 100%;
+    background-color: #71a1dc 
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h1, .instructions, .data {
+    text-align: center
+}
+
+.main {
+    width: 80%;
+    max-width: 40em;
+    margin: 0 auto;
+    color: #3f3a27;
+    background: #f4f0e5 url(http://davidrhysthomas.co.uk/linked/test.png) 35% 0 repeat-y;
+    padding: 0.5em;
+    margin-bottom: 0.6em;  
+}
+
+label, input[type=text], select {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -box-sizing: border-box;
+    margin-bottom: 0.6em;    
+}
+
+label {
+    width: 30%;
+    text-align: right;
+    margin: 0 10% 0 0;
+}
+
+label:after {
+    content: ': ';
+}
+
+input[type=text] {
+    width: 40%;
+}
+
+select {
+    width: 20%;
+}
+
+fieldset {
+    margin: 0 0 1em 0;
+}
