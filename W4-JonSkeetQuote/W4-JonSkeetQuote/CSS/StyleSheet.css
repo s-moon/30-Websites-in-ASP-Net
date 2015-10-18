@@ -1,0 +1,24 @@
+﻿h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center;
+    font-size: 3em;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+.quote {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-size: x-large;
+    border-left-color: black;
+    border-left-width: thick;
+    border-left-style: solid;
+    margin-bottom: 50px;
+}

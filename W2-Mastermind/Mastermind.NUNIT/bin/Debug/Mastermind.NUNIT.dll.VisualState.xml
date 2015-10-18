@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1008]C:\Users\Stephen\OneDrive\Web\Git\30-websites-in-asp-net\W2-Mastermind\W2-Mastermind\Mastermind.NUNIT\bin\Debug\Mastermind.NUNIT.dll</TopNode>
+  <SelectedNode>[0-1008]C:\Users\Stephen\OneDrive\Web\Git\30-websites-in-asp-net\W2-Mastermind\W2-Mastermind\Mastermind.NUNIT\bin\Debug\Mastermind.NUNIT.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1008]C:\Users\Stephen\OneDrive\Web\Git\30-websites-in-asp-net\W2-Mastermind\W2-Mastermind\Mastermind.NUNIT\bin\Debug\Mastermind.NUNIT.dll" Expanded="true" />
+    <Node UniqueName="[0-1009]Mastermind" Expanded="true" />
+    <Node UniqueName="[0-1010]Mastermind.NUNIT" Expanded="true" />
+    <Node UniqueName="[0-1000]Mastermind.NUNIT.MastermindSequenceTest" Expanded="true" />
+  </Nodes>
+</VisualState>
