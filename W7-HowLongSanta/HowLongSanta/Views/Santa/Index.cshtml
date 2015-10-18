@@ -1,0 +1,34 @@
+﻿@model  HowLongSanta.Models.Duration
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>W7 - How Long Till Santa? - logicalmoon.com</title>
+    <link href="~/CSS/Styles.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>How Long Till Santa?</h1>
+    <div> 
+        <p class="message">Let Santa show you how close we are to Christmas.</p>
+        <div class="image-model">
+            <img id="santa" style="left: @Html.Raw(@Model.DaysPassed)px" src="~/Images/santa.png" width="100" height="100" />
+            <img id="line" src="~/Images/line.png" width="@Html.Raw(@Model.TotalDaysSinceAnniversaryOneYearAgo)" />
+            <img id="tree" src="~/Images/tree.png" width="100" height="100" />
+        </div>
+        @if (@Model.DaysToWait == 0)
+        {
+            <p class="message">Oh my! Rush downstairs because Santa has been!</p>
+        }
+        else
+        {
+            <p class="message">Don't worry...you only have to wait another @Model.DaysToWait days!</p>
+        } 
+    </div>
+    <footer class="credits">
+        <p><small>Created by <a href="http://www.logicalmoon.com/">Stephen Moon</a></small></p>
+    </footer>
+</body>
+</html>
